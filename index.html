@@ -38,6 +38,12 @@
             height: 100%;
             border: none;
         }
+
+        .center-flexbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body class="is-boxed has-animations">
@@ -78,11 +84,19 @@
             </section>
 
             <section class="features section text-center">
-                <br />
-            <p class="hero-cta is-revealing">
-                <a class="button button-secondary button-shadow" href="dataset/defi_sok.db" download>Download Dataset</a>
-                <a class="button button-secondary button-shadow" href="https://github.com/Research-Imperium/SoKDeFiAttacks">Github</a>
-            </p>
+                <div class="container">
+                    <div class="features-inner section-inner has-top-divider">
+                        <h2 class="section-title mt-0">Dataset</h2>
+                        <div class="center-flexbox">
+                            <img src="dataset/db.svg" alt="Description of Graph">
+                        </div>
+                        <br/>
+                        <p class="hero-cta is-revealing">
+                            <a class="button button-secondary button-shadow" href="dataset/defi_sok.db" download>Download Dataset</a>
+                            <a class="button button-secondary button-shadow" href="https://github.com/Research-Imperium/SoKDeFiAttacks">Github</a>
+                        </p>
+                    </div>
+                </div>
             </section>
 
 
