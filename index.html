@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SoK: DeFi Attacks</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|PT+Serif:700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <style>
+        .citation {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.85em;  /* slightly smaller font size for compactness */
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 8px; /* reduced padding for compactness */
+            overflow-x: auto; /* for horizontal scrolling if content exceeds width */
+            text-align: left; /* ensures text is left-aligned */
+            line-height: 1.2;  /* tighter line height */
+        }
+
+        .citation p {
+            margin: 0; /* removes default paragraph margins */
+            padding: 2px 0; /* reduced padding between lines */
+        }
+
+        .citation strong {
+            color: #333;
+        }
+    </style>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+                                    <title>Systematization of Knowledge (SoK): Decentralized Finance (DeFi) Attacks</title>
+                                    <defs>
+                                        <radialGradient cy="0%" fx="50%" fy="0%" r="100%" id="logo-gradient">
+                                            <stop stop-color="#FFF" offset="0%"/>
+                                            <stop stop-color="#FFF" stop-opacity=".24" offset="100%"/>
+                                        </radialGradient>
+                                    </defs>
+                                    <path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zm0-10a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" fill="url(#logo-gradient)" fill-rule="evenodd"/>
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero text-light text-center">
+                <div class="container-sm">
+                    <div class="hero-inner">
+                        <h1 class="hero-title h2-mobile mt-0 is-revealing">Systematization of Knowledge (SoK): Decentralized Finance (DeFi) Attacks</h1>
+                        <p class="hero-paragraph is-revealing"><i>Accepted by 44th IEEE Symposium on Security and Privacy</i></p>
+                        <p class="hero-paragraph is-revealing">Liyi Zhou, Xihan Xiong, Jens Ernstberger, Stefanos Chaliasos, Zhipeng Wang, Ye Wang, Kaihua Qin, Roger Wattenhofer, Dawn Song, Arthur Gervais</p>
+                        <div class="hero-media">
+                            <iframe src="dataset/SoKDeFiAttacks.pdf" width="800" height="600"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section text-center">
+                <br />
+            <p class="hero-cta is-revealing">
+                <a class="button button-secondary button-shadow" href="dataset/defi_sok.db" download>Download Dataset</a>
+            </p>
+            </section>
+
+
+            <section class="features section text-center">
+                <div class="container">
+                    <div class="features-inner section-inner has-top-divider">
+                        <h2 class="section-title mt-0">Other Papers Using This Dataset</h2>
+                        <div class="feature-extended-body">
+                            <h4>Smart Contract and Defi Security: Insights From Tool Evaluations and Practitioner Surveys</h4>
+                            <p>
+                                <i>46th International Conference on Software Engineering (ICSE 2024)</i><br />
+                                Stefanos Chaliasos, Marcos Antonios Charalambous, Liyi Zhou, Rafaila Galanopoulou, Arthur Gervais, Dimitris Mitropoulos, Ben Livshits
+                            </p>
+                        </div>
+                        <div class="feature-extended-body">
+                            <h4>Towards Automated Security Analysis of Smart Contracts based on Execution Property Graph
+                                Authors
+                            </h4>
+                            <p>Kaihua Qin, Zhe Ye, Zhun Wang, Weilin Li, Liyi Zhou, Chao Zhang, Dawn Song, Arthur Gervais</p>
+                        </div>
+                        <div class="feature-extended-body">
+                            <h4>Blockchain Large Language Models</h4>
+                            <p>Yu Gai*, Liyi Zhou*, Kaihua Qin, Dawn Song, Arthur Gervais</p>
+                        </div>
+                        <div class="feature-extended-body">
+                            <h4>Do You Still Need a Manual Smart Contract Audit?</h4>
+                            <p>Isaac David, Liyi Zhou, Kaihua Qin, Dawn Song, Lorenzo Cavallaro, Arthur Gervais</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section class="features section text-center">
+                <div class="container">
+                    <div class="features-inner section-inner has-top-divider">
+                        <h2 class="section-title mt-0">How To Cite This Dataset?</h2>
+                        <h4>The original dataset can be cited using the reference provided below:</h4>
+                        <div class="citation">
+                            <p>
+                                @inproceedings{zhou2023sok,<br/>
+                                title={Sok: Decentralized finance (defi) attacks},<br/>
+                                author={Zhou, Liyi and Xiong, Xihan and Ernstberger, Jens and Chaliasos, Stefanos and Wang, Zhipeng and Wang, Ye and Qin, Kaihua and Wattenhofer, Roger and Song, Dawn and Gervais, Arthur},<br/>
+                                booktitle={2023 IEEE Symposium on Security and Privacy (SP)},<br/>
+                                pages={2444--2461},<br/>
+                                year={2023},<br/>
+                                organization={IEEE}<br/>
+                                }<br/>
+                            </p>
+                        </div>
+
+                        <h4>The subsequent publications have helped us revise the original datasett:</h4>
+                        <div class="citation">
+                            <p>
+                                @article{chaliasos2023smart,<br/>
+                                title={Smart contract and defi security: Insights from tool evaluations and practitioner surveys},<br/>
+                                author={Chaliasos, Stefanos and Charalambous, Marcos Antonios and Zhou, Liyi and Galanopoulou, Rafaila and Gervais, Arthur and Mitropoulos, Dimitris and Livshits, Ben},<br/>
+                                journal={arXiv preprint arXiv:2304.02981},<br/>
+                                year={2023}<br/>
+                                }<br/>
+                                <br/>
+                                @article{qin2023towards,<br/>
+                                title={Towards Automated Security Analysis of Smart Contracts based on Execution Property Graph},<br/>
+                                author={Qin, Kaihua and Ye, Zhe and Wang, Zhun and Li, Weilin and Zhou, Liyi and Zhang, Chao and Song, Dawn and Gervais, Arthur},<br/>
+                                journal={arXiv preprint arXiv:2305.14046},<br/>
+                                year={2023}<br/>
+                                }<br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
