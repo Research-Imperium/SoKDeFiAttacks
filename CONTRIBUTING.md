@@ -2,10 +2,6 @@
 
 Thank you for your interest in contributing to the "SoK: Decentralized Finance (DeFi) Attacks" research project! We truly appreciate contributions from the community, and we're excited to see the growth and improvements from collective knowledge. Here's how you can help:
 
-## Code of Conduct
-
-By participating in this project, you are expected to uphold our Code of Conduct. (Note: Make sure you have a Code of Conduct file, or you can omit this section.)
-
 ## Setting Up
 
 1. Fork the Repository: Click the 'fork' button at the top-right corner of this repository.
