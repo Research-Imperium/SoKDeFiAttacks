@@ -1,18 +1,6 @@
 # Systematization of Knowledge (SoK): Decentralized Finance (DeFi) Attacks
 
-This research has been accepted by the 44th IEEE Symposium on Security and Privacy. The term "Systematization of Knowledge (SoK)" refers to a comprehensive review and organization of information on a particular topic.
-
-## Authors:
-* Liyi Zhou, 
-* Xihan Xiong, 
-* Jens Ernstberger, 
-* Stefanos Chaliasos, 
-* Zhipeng Wang, 
-* Ye Wang, 
-* Kaihua Qin, 
-* Roger Wattenhofer, 
-* Dawn Song, 
-* Arthur Gervais
+This research has been accepted by the [44th IEEE Symposium on Security and Privacy](https://oaklandsok.github.io). The term "Systematization of Knowledge (SoK)" refers to a comprehensive review and organization of information on a particular topic.
 
 [View PDF](docs/data/SoKDeFiAttacks.pdf)
 
@@ -24,7 +12,7 @@ We welcome contributions to improve the dataset and the research. See our [contr
 
 ## License
 
-This project is licensed under the CC BY-NC - see the LICENSE.md file for details. 
+This project is licensed under the CC BY-NC - see [LICENSE](LICENSE-CC-BY-NC-4.0.md) file for details. 
 
 Note: The CC BY-NC license does not apply to the website's code.
 
@@ -64,5 +52,3 @@ year={2023}
 ## Acknowledgement
 
 The website, located at `/docs/dist` and `/docs/index.html`, is adapted from "Evelyn", a complimentary HTML landing page crafted by @pacovitiello and @DavidePacilio, the esteemed co-founders of Cruip.com.
-
-Note: The CC BY-NC license does not apply to the website's code.
